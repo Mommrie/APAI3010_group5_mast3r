@@ -37,7 +37,7 @@ python -c "import torch; print('CUDA available:', torch.cuda.is_available()); pr
 python -c "import habitat_sim; print('Habitat Sim imported successfully. Version:', habitat_sim.__version__)"
 ```
 
-### step 2: Fill in the required files according to the mast3r source code base (see: ):
+### step 2: Fill in the required files according to the mast3r source code base (see: https://github.com/naver/mast3r?tab=readme-ov-file#installation):
 ```bash
 git clone https://github.com/jenicek/asmk
 cd asmk/cython/
