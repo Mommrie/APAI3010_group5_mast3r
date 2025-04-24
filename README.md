@@ -7,7 +7,7 @@ This is the repo for APAI3010 project of group 25, cite and repair MAST3R.
 git clone https://github.com/Mommrie/APAI3010_group5_mast3r.git
 cd APAI3010_group5_mast3r
 ```
-
+remind: there are some files changed in our project, different to original files in mast3r repo, so following command may appears error if you git clone from mast3r repo.
 ```bash
 conda create -n mast3r python=3.9 cmake=3.14.0
 conda activate mast3r
