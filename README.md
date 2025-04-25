@@ -1,5 +1,5 @@
 # APAI3010_group5_mast3r
-This is the repo for APAI3010 project of group 25, cite and repair MAST3R.
+This is the repo for APAI3010 project of group 25, cite and repair [MAST3R](https://github.com/naver/mast3r).
 
 ## Here is how you can correctly run the process of this project:
 ### step 1: clone this repo and create a conda environment:
