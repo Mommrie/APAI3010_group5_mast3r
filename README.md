@@ -23,7 +23,7 @@ pip install pycolmap kapture kapture-localization
 pip install 'huggingface-hub[torch]>=0.22' gradio
 conda install matplotlib tensorboard notebook ipykernel ipywidgets widgetsnbextension tqdm -c conda-forge
 pip install cython
-conda install -c open3d-admin open3d
+pip install open3d
 ```
 
 Sometimes there will be an error after this. Enter the command according to the prompt: 
@@ -135,3 +135,8 @@ These are the links of gradio interactive page: ```http://127.0.0.1:7860 # for l
 open either of them you can see website as:
 
 ![](https://github.com/Mommrie/APAI3010_group5_mast3r/blob/main/demo_image.jpeg)
+
+### our application and improvement:
+The features we have added are:
+1. Added the ability to receive video files and provided some methods to process video files into image files (among which only the default uniform effect works well).
+2. Added surface reconstruction functionality for point cloud maps (but because our group uses GPUs and memory with limited hardware conditions, we added many restrictions in the function, so it works well in small spaces but performs extremely poorly in large spaces, and there may even be memory allocation errors).
