@@ -23,6 +23,7 @@ pip install pycolmap kapture kapture-localization
 pip install 'huggingface-hub[torch]>=0.22' gradio
 conda install matplotlib tensorboard notebook ipykernel ipywidgets widgetsnbextension tqdm -c conda-forge
 pip install cython
+conda install -c open3d-admin open3d
 ```
 
 Sometimes there will be an error after this. Enter the command according to the prompt: 
