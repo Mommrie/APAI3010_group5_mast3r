@@ -134,7 +134,7 @@ This share link expires in 72 hours. For free permanent hosting and GPU upgrades
 These are the links of gradio interactive page: ```http://127.0.0.1:7860 # for local web``` and ```https://xxx.gradio.live # for public web```.
 open either of them you can see website as:
 
-![](https://github.com/Mommrie/APAI3010_group5_mast3r/blob/main/github_images_usage/demo_image.jpeg)
+![]([https://github.com/Mommrie/APAI3010_group5_mast3r/blob/main/github_images_usage/demo_image.jpeg])
 
 ### our application and improvement:
 The features we have added are:
