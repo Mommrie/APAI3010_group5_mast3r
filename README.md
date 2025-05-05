@@ -1,7 +1,7 @@
 # APAI3010_group5_mast3r
 This is the repo for APAI3010 project of group 25, cite and repair [MAST3R](https://github.com/naver/mast3r).
 
-## Here is how you can correctly run the process of this project:
+## Here is how you can correctly run the pipeline of this project:
 ### step 1: clone this repo and create a conda environment:
 ```bash
 git clone https://github.com/Mommrie/APAI3010_group5_mast3r.git
@@ -136,7 +136,17 @@ open either of them you can see website as:
 
 ![](https://github.com/Mommrie/APAI3010_group5_mast3r/blob/main/github_images_usage/demo_image.jpeg)
 
+Here is our sample results for reproduction, also shown in our report.
+![](https://github.com/Mommrie/APAI3010_group5_mast3r/blob/main/github_images_usage/report%20images/results%20graph_00.jpg)
+
 ### our application and improvement:
 The features we have added are:
 1. Added the ability to receive video files and provided some methods to process video files into image files (among which only the default uniform effect works well).
+![](https://github.com/Mommrie/APAI3010_group5_mast3r/blob/main/github_images_usage/report%20images/application%20graph_00.jpg)
+
 2. Added surface reconstruction functionality for point cloud maps (but because our group uses GPUs and memory with limited hardware conditions, we added many restrictions in the function, so it works well in small spaces but performs extremely poorly in large spaces, and there may even be memory allocation errors).
+![](https://github.com/Mommrie/APAI3010_group5_mast3r/blob/main/github_images_usage/report%20images/improvement%20graph_00.jpg)
+
+
+### complete interactive interface
+![](https://github.com/Mommrie/APAI3010_group5_mast3r/blob/main/github_images_usage/report%20images/gradio%20interface_00.jpg)
